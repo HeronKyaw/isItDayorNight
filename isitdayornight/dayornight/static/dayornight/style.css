@@ -1,0 +1,14 @@
+html{
+    background-color:indigo;
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 90px;
+    color: aliceblue;
+    border: 3px dotted navajowhite;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 10px;
+    margin: 250px auto;
+}
