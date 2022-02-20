@@ -10,10 +10,14 @@
         <link rel="stylesheet" href="{% static 'dayornight/style.css' %}">
     </head>
     <body>
-        {%if dayornight%}
-            <h1>Day Time</h1>
-        {%else%}
-            <h1>Night Time</h1>
+        {%if morning%}
+            <h1>Morning</h1>
+        {%elif afternoon%}
+            <h1>Afternoon</h1>
+        {%elif evening %}
+            <h1>Evening</h1>
+        {%elif night%}
+            <h1>Night</h1>
         {%endif%}
     </body>
 </html>
